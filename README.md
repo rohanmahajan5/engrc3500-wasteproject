@@ -9,4 +9,6 @@ Instructions:
 python3 -m http.server 8080
 ```
 
-2. Open localhost
+2. Open http://localhost:8080/ in your browser
+
+Main branch auto deployed live to: https://engrc3500.netlify.app/
