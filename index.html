@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cornell Waste Disposal Guide</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header id="header">
+      <h1>Sustainable Waste Disposal at Cornell University</h1>
+
+      <div id="search">
+        <button type="button" id="locate">📍</button>
+        <input
+          id="search-input"
+          type="search"
+          placeholder="Search locations"
+          autocomplete="off"
+        />
+      </div>
+
+      <nav id="filters"></nav>
+    </header>
+
+    <main id="main">
+      <div id="map"></div>
+      <aside id="sidebar">
+        <button type="button" id="sheet-toggle"></button>
+        <div id="sheet-body">
+          <section id="list"><p>Loading…</p></section>
+        </div>
+      </aside>
+    </main>
+
+    <script type="module" src="src/main.js"></script>
+  </body>
+</html>
