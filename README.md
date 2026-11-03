@@ -1,6 +1,7 @@
 # README.md
 Map of campus waste drop-off locations.
 Locations are read live from this Google Sheet: 
+https://docs.google.com/spreadsheets/d/1HvMjA0aVCzMNoTQzIsyK_PysjyejbjlE/edit?usp=sharing&ouid=102849174137515227845&rtpof=true&sd=true
 
 Instructions:
 
